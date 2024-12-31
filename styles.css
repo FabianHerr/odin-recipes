@@ -1,0 +1,36 @@
+* {
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+h1, .desc, .ing, .steps {
+     text-align: center;
+     font-weight: 500;
+    }
+
+h1 {
+    background-color: rgba(254, 170, 25,0.7);
+}
+
+.desc {
+    background-color: rgba(238, 58, 3, 0.7);
+}
+
+.pdesc {
+    color: rgb(238, 58, 3)
+}
+
+.ing {
+    background-color: rgba(4, 156, 22, 0.7);
+}
+
+.steps {
+    background-color: rgba(8, 156, 241, 0.7);
+}
+
+ul {
+    color:darkgreen;
+}
+
+ol{
+    color:rgb(8, 156, 241);
+}
