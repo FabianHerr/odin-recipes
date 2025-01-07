@@ -2,29 +2,47 @@
     font-family: "Times New Roman", Times, sans-serif;
 }
 
-h1, .desc, .ing, .steps {
+h1, .desc, .ing, .stps {
      text-align: center;
      font-weight: 500;
     }
 
 h1 {
     background-color: rgba(254, 170, 25,0.7);
+    padding: 10px;
+    border: 2px solid black;
 }
-
+.description{
+    margin: 20px;
+}
 .desc {
     background-color: rgba(238, 58, 3, 0.7);
+    border: 2px solid black;
 }
 
 .pdesc {
-    color: rgb(238, 58, 3)
+    color: rgb(238, 58, 3);
+    text-align: center;
+    background-color: rgba(238, 58, 3,0.2);
+    padding: 15px;
+}
+
+.ingredients {
+    margin: 20px;
 }
 
 .ing {
     background-color: rgba(4, 156, 22, 0.7);
+    border: 2px solid black;
 }
 
 .steps {
+    margin: 20px;
+}
+
+.stps {
     background-color: rgba(8, 156, 241, 0.7);
+    border: 2px solid black;
 }
 
 ul {
@@ -33,4 +51,8 @@ ul {
 
 ol{
     color:rgb(8, 156, 241);
+}
+
+span {
+    background-color: rgb(255, 225, 0);
 }
